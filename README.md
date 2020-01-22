@@ -5,18 +5,19 @@ DERO AstroBWT Proof-of-Work
 go get -u github.com/deroproject/astrobwt/miner  
 
 ### SAMPLE OUTPUT  
-./miner
-DERO AstroBWT Miner v0.01 alpha
-CPU: Intel(R) Xeon(R) CPU E3-1270 v6 @ 3.80GHz    PhysicalThreads:1
-             Threads           Total Time     Total Iterations            Time/PoW         Hash Rate/Sec 
-                   1         3.272996982s                  100          32.729969ms                 30.6 
-                   2         3.572288466s                  200          17.861442ms                 56.0 
-                   3         4.013980986s                  300          13.379936ms                 74.7 
-                   4         4.704899609s                  400          11.762249ms                 85.0 
-                   5         5.784798143s                  500          11.569596ms                 86.4 
-                   6         6.629462384s                  600          11.049103ms                 90.5 
-                   7         8.351780961s                  700          11.931115ms                 83.8 
-                   8         10.49473002s                  800          13.118412ms                 76.2
+./miner  
+DERO AstroBWT Miner v0.01 alpha  
+CPU: Intel(R) Xeon(R) CPU E3-1270 v6 @ 3.80GHz    PhysicalThreads:1  
+             Threads           Total Time     Total Iterations            Time/PoW         Hash Rate/Sec  
+                   1         3.272996982s                  100          32.729969ms                 30.6  
+                   2         3.572288466s                  200          17.861442ms                 56.0  
+                   3         4.013980986s                  300          13.379936ms                 74.7  
+                   4         4.704899609s                  400          11.762249ms                 85.0  
+                   5         5.784798143s                  500          11.569596ms                 86.4  
+                   6         6.629462384s                  600          11.049103ms                 90.5  
+                   7         8.351780961s                  700          11.931115ms                 83.8  
+                   8         10.49473002s                  800          13.118412ms                 76.2  
+   
 
 
 The proof of work is based on Information Theory Domain.  
