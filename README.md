@@ -1,6 +1,8 @@
 DERO AstroBWT Proof-of-Work
 ============================  
 
+### [AstroBWT Testnet](https://github.com/deroproject/derosuite_AstroBWT_testnet)
+
 ### AstroBWT BUILDING  
 go get -u github.com/deroproject/astrobwt/miner  
 
