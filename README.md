@@ -25,7 +25,7 @@ CPU: Intel(R) Xeon(R) CPU E3-1270 v6 @ 3.80GHz    PhysicalThreads:1
 The proof of work is based on Information Theory Domain.  
 ## AstroBWT Pseudo CODE:  
 1. Calulate SHA3-256 of input data
-2. Expand data using Salsa0  cipher  69371  bytes
+2. Expand data using Salsa20  cipher  69371  bytes
 3. Calculate BWT of step 2
 4. Calculate SHA3-256 of BWT data
 5. Expand data using Salsa20  cipher  69371  + random number based on step 4
@@ -59,6 +59,15 @@ Read more about research of BWT FPGA implementation [here](http://www.sfu.ca/~zh
 | 7|  Intel Core i5-2500K (3.3GHz)   |    ~50 H/s|-|-|  
 | 8|  Intel Xeon E31240 (3.3GHz)  |    ~60 H/s|-|-|  
 | 9|   AMD A4-7300 (3.8GHz)  |    ~12 H/s |-|-|  
+| 10|   Ryzen 5 3600 @ stock 26 watt  |   ~180-200 H/s  |-|-|  
+| 11|    Ryzen @ 3950 34 watt  |    ~220-240 H/s |-|-|  
+| 12|    Ryzen @ 4150 48 watt  |    ~230-250 H/s |-|-|  
+| 13|   Ryzen 5 2600 @ 3900   |   ~140-160 H/s |-|-|  
+| 14|    Ryzen 3 1200 @ 2000  |   ~45-55 H/s  |-|-|  
+| 15|    Ryzen 3 120 @ 3900   |   ~80-90 H/s |-|-|  
+| 16|   I7-7700k   |    ~100-120 H/s |-|-|  
+| 17|   AMD A4-7300 (3.8GHz)  |    ~12 H/s |-|-|  
+
 
 
 
