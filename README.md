@@ -48,7 +48,7 @@ AstroBWT is not from crypto world and has roots in Information Theory and Compre
 Read more about research of BWT FPGA implementation [here](http://www.sfu.ca/~zhenman/files/C16-FCCM2019-BWT.pdf).
 
 ### AstroBWT Hash Rates [Submitted by public](https://github.com/deroproject/astrobwt/issues/2):  
-|S No.| 	CPU  |Hash Rates |Threads |	OS |  
+|SNo.| 	CPU  |Hash Rates |Threads |	OS |  
 |------|-------|--------|-------|---|  
 | 1| AMD Ryzen Threadripper |  ~129 H/s|-|-|  
 | 2| Intel Core i7-6700 |   ~108 H/s|-|-|  
@@ -66,8 +66,12 @@ Read more about research of BWT FPGA implementation [here](http://www.sfu.ca/~zh
 | 14|    Ryzen 3 1200 @ 2000  |   ~45-55 H/s  |-|-|  
 | 15|    Ryzen 3 120 @ 3900   |   ~80-90 H/s |-|-|  
 | 16|   I7-7700k   |    ~100-120 H/s |-|-|  
-| 17|   AMD A4-7300 (3.8GHz)  |    ~12 H/s |-|-|  
-
-
+| 17|   Intel Core i7-6700K 4.20GHz|     ~120-138 H/s   |-|-|  
+| 18|   Intel Atom x5-Z8330  1.44Ghz   |    ~2-6 H/s |-|-|  
+| 19|    Intel Core M 5Y10  0.80Ghz  |    ~12-33 H/s  |-|-|  
+| 20|   i7-7700HQ @ 2.80GHz  |    ~90 H/s |-|-|  
+| 21| i3 8100(4 core)  |    ~75 H/s |3 core|proxmox virtualization|  
+| 22|  Intel i5-4570 @ 3.2GhZ  |    ~56.5 H/s |-|iMac late 2013 8Gb|  
+| 23|   Intel i7-3770K @3.5GHz |    ~72-92 H/s |-|-|  
 
 
