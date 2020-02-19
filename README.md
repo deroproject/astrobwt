@@ -3,6 +3,14 @@ DERO AstroBWT Proof-of-Work
 
 ### [AstroBWT Testnet](https://github.com/deroproject/derosuite_AstroBWT_testnet)
 
+### Table of Contents
+1. [AstroBWT BUILDING](#astrobwt-building) 
+1. [SAMPLE OUTPUT](#sample-output) 
+1. [AstroBWT Pseudo CODE](#astrobwt-pseudo-code) 
+1. [Explaining AstroBWT](#explaining-astrobwt) 
+1. [AstroBWT Hash Rates](#astrobwt-hash-rates) 
+
+
 ### AstroBWT BUILDING  
 go get -u github.com/deroproject/astrobwt/miner  
 
@@ -22,22 +30,20 @@ CPU: Intel(R) Xeon(R) CPU E3-1270 v6 @ 3.80GHz    PhysicalThreads:1
    
 
 
-The proof of work is based on Information Theory Domain.  
-## AstroBWT Pseudo CODE:  
+AstroBWT has roots in Information Theory and Compression Domain. 
+### AstroBWT Pseudo CODE  
 1. Calulate SHA3-256 of input data
 2. Expand data using Salsa20  cipher  69371  bytes
 3. Calculate BWT of step 2
 4. Calculate SHA3-256 of BWT data
 5. Expand data using Salsa20  cipher  69371  + random number based on step 4
 6. Calculate BWT of data from step 5
-7. Calculate SHA3-256 of BWT data from step 6
+7. Calculate SHA3-256 of BWT data from step 6  
 
+BWT Reference: https://en.wikipedia.org/wiki/Burrows%E2%80%93Wheeler_transform
 
-
-Reference: https://en.wikipedia.org/wiki/Burrows%E2%80%93Wheeler_transform
-
-### Explaining AstroBWT:
-AstroBWT is not from crypto world and has roots in Information Theory and Compression Domain and this domain has much bigger mcap.  
+### Explaining AstroBWT
+AstroBWT is not from crypto world and has roots in Information Theory and Compression Domain.  
 
 1. AstroBWT is based on proofs and research unlike other CPU mining ALGOs.  
 1. Second, All algorithms are static (At best, they follow data dependent branches, loops or conditions). This includes even RandomX also.(In case you are missing, @DeroProject has already implemented [RandomX in golang](https://git.dero.io/DERO_Foundation/RandomX), there are just obfuscated data dependent branches, nothing more in RandomX. So, We found RandomX is not for DERO.)  
@@ -47,7 +53,8 @@ AstroBWT is not from crypto world and has roots in Information Theory and Compre
 
 Read more about research of BWT FPGA implementation [here](http://www.sfu.ca/~zhenman/files/C16-FCCM2019-BWT.pdf).
 
-### AstroBWT Hash Rates [Submitted by public](https://github.com/deroproject/astrobwt/issues/2):  
+### AstroBWT Hash Rates 
+[Submitted by public](https://github.com/deroproject/astrobwt/issues/2):  
 |SNo.| 	CPU  |Hash Rates |Threads |	OS |  
 |------|-------|--------|-------|---|  
 | 1| AMD Ryzen Threadripper |  ~129 H/s|-|-|  
