@@ -46,3 +46,19 @@ AstroBWT is not from crypto world and has roots in Information Theory and Compre
 1. Let's assume if in coming months/years AstroBWT is optimized/speedup to give several times performance on FPGA/ASIC/GPU/etc. then you would be doing great service & might even trigger the next revolution in Bioinformatics/SignalProcessing/DNA Sequencing etc. or in other numerous domains where BWT is used. So, AstroBWT will have subserved the society more practically in other ways also.
 
 Read more about research of BWT FPGA implementation [here](http://www.sfu.ca/~zhenman/files/C16-FCCM2019-BWT.pdf).
+
+### AstroBWT Hash Rates [Submitted by public](https://github.com/deroproject/astrobwt/issues/2):  
+|S No.| 	CPU  |Hash Rates |Threads |	OS |  
+|------|-------|--------|-------|---|  
+| 1| AMD Ryzen Threadripper |  ~129 H/s|-|-|  
+| 2| Intel Core i7-6700 |   ~108 H/s|-|-|  
+| 3| Intel® Xeon® E5-4657L v2 | ~127-160 H/s|-|-|  
+| 4| Intel(R) Core(TM) i7-87s50H @ 2.20GHz |     ~75 H/s | 6 cores/12 threads|-|  
+| 5| AMD RYZEN 7 3700 X | ~180 H/S|-|-|  
+| 6| AMD Ryzen 5 3600 (3.6GHz) | ~70-95 H/s|-|-|  
+| 7|  Intel Core i5-2500K (3.3GHz)   |    ~50 H/s|-|-|  
+| 8|  Intel Xeon E31240 (3.3GHz)  |    ~60 H/s|-|-|  
+| 9|   AMD A4-7300 (3.8GHz)  |    ~12 H/s |-|-|  
+
+
+
