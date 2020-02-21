@@ -57,7 +57,7 @@ Read more about research of BWT FPGA implementation [here](http://www.sfu.ca/~zh
 [Submitted by public](https://github.com/deroproject/astrobwt/issues/2):  
 |SNo.| 	CPU  |Hash Rates |Threads |	OS |  
 |------|-------|--------|-------|---|  
-| 1| AMD Ryzen Threadripper |  ~129 H/s|-|-|  
+| 1| AMD Ryzen Threadripper 1950X |  ~240 H/s|15 Threads|Linux|  
 | 2| Intel Core i7-6700 |   ~108 H/s|-|-|  
 | 3| Intel® Xeon® E5-4657L v2 | ~127-160 H/s|-|-|  
 | 4| Intel(R) Core(TM) i7-87s50H @ 2.20GHz |     ~75 H/s | 6 cores/12 threads|-|  
