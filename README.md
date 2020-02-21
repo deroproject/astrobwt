@@ -80,5 +80,7 @@ Read more about research of BWT FPGA implementation [here](http://www.sfu.ca/~zh
 | 21| i3 8100(4 core)  |    ~75 H/s |3 core|proxmox virtualization|  
 | 22|  Intel i5-4570 @ 3.2GhZ  |    ~56.5 H/s |-|iMac late 2013 8Gb|  
 | 23|   Intel i7-3770K @3.5GHz |    ~72-92 H/s |-|-|  
+| 24|   Ryzen 2700 3.9GHz |     ~172 H/s |-|-|  
+
 
 
