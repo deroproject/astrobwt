@@ -1,5 +1,5 @@
-DERO AstroBWT Proof-of-Work
-============================  
+DERO AstroBWT CPU Mining Proof-of-Work
+======================================  
 
 ### [AstroBWT Testnet](https://github.com/deroproject/derosuite_AstroBWT_testnet)
 
@@ -8,7 +8,7 @@ DERO AstroBWT Proof-of-Work
 1. [SAMPLE OUTPUT](#sample-output) 
 1. [AstroBWT Pseudo CODE](#astrobwt-pseudo-code) 
 1. [Explaining AstroBWT](#explaining-astrobwt) 
-1. [AstroBWT Hash Rates](#astrobwt-hash-rates) 
+1. [AstroBWT CPU Hash Rates](#astrobwt-hash-rates) 
 
 
 ### AstroBWT BUILDING  
@@ -53,7 +53,7 @@ AstroBWT is not from crypto world and has roots in Information Theory and Compre
 
 Read more about research of BWT FPGA implementation [here](http://www.sfu.ca/~zhenman/files/C16-FCCM2019-BWT.pdf).
 
-### AstroBWT Hash Rates 
+### AstroBWT CPU Hash Rates 
 [Submitted by public](https://github.com/deroproject/astrobwt/issues/2):  
 |SNo.| 	CPU  |Hash Rates |Threads |	OS |  
 |------|-------|--------|-------|---|  
