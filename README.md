@@ -28,9 +28,6 @@ CPU: Intel(R) Xeon(R) CPU E3-1270 v6 @ 3.80GHz    PhysicalThreads:1
                    7         8.351780961s                  700          11.931115ms                 83.8  
                    8         10.49473002s                  800          13.118412ms                 76.2  
    
-
-
-AstroBWT has roots in Information Theory and Compression Domain. 
 ### AstroBWT Pseudo CODE  
 1. Calulate SHA3-256 of input data
 2. Expand data using Salsa20  cipher  69371  bytes
