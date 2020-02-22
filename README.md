@@ -40,7 +40,7 @@ AstroBWT has roots in Information Theory and Compression Domain.
 6. Calculate BWT of data from step 5
 7. Calculate SHA3-256 of BWT data from step 6  
 
-BWT Reference: https://en.wikipedia.org/wiki/Burrows%E2%80%93Wheeler_transform
+[More about BWT here](https://en.wikipedia.org/wiki/Burrows%E2%80%93Wheeler_transform).
 
 ### Explaining AstroBWT
 AstroBWT is not from crypto world and has roots in Information Theory and Compression Domain.  
