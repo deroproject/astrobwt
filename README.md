@@ -8,7 +8,7 @@ DERO AstroBWT CPU Mining Proof-of-Work
 1. [SAMPLE OUTPUT](#sample-output) 
 1. [AstroBWT Pseudo CODE](#astrobwt-pseudo-code) 
 1. [Explaining AstroBWT](#explaining-astrobwt) 
-1. [AstroBWT CPU Hash Rates](#astrobwt-hash-rates) 
+1. [AstroBWT Hash Rates](#astrobwt-hash-rates) 
 
 
 ### AstroBWT BUILDING  
@@ -45,14 +45,14 @@ CPU: Intel(R) Xeon(R) CPU E3-1270 v6 @ 3.80GHz    PhysicalThreads:1
 AstroBWT is not a product of the current cryptosphere approach. It has roots in Information Theory and the Compression Domains.  
 1. AstroBWT is based on mathematical proofs and research, unlike other CPU mining ALGOs.  
 1. All current mining algorithms are static. To explain more simply, all current cryptocurrency mining algorithms follow data dependent branches, loops or conditions. This rule applies to all algorithms that we have researched, including RandomX. If you haven't seen, the @DeroProject has already implemented [RandomX in Golang](https://git.dero.io/DERO_Foundation/RandomX).  
-1. We had noticed that there are only obfuscated data dependent branches in RandomX, nothing more. So, We decided that the RandomX algortithm was not a good fit for DERO.  
+1. We had noticed that there are only obfuscated data dependent branches in RandomX, nothing more. So, We decided that the RandomX algorithm was not a good fit for DERO.  
 1. AstroBWT, as the name implies, has BWT at it's core. BWT has been in research for the last 3 decades and numerous optimization attempts of GPU/FPGA have taken place. For more information on that topic, please refer to literature in the Information Theory and Compression Domains. However, all known implementations to this date, could not deliver an improvement even twice that of CPUs.  
 1. All major providers (such as INTEL, NVIDIA etc) have already provided optimized implementations of BWT. Since, BWT has been used quite often in the general information theory and compression domains, it has been a subject of intensive studies. https://software.intel.com/en-us/ipp-dev-reference-burrows-wheeler-transform  
 1. In the coming months or years that AstroBWT is optimized or shown to have a significant performance boost on FPGAs, ASICs, or GPUs there would be a benefit for everyone. Such an advancement could even trigger the next revolution in Bioinformatics, Signal Processing, DNA Sequencing or other numerous domains where BWT is used. So, AstroBWT will not only serve as an ASIC/FPGA and GPU resisitant algorithm but it will aslo succeed in helping scientific research if it is optimized for these things.  
 
 Read more about research of BWT FPGA implementation [here](http://www.sfu.ca/~zhenman/files/C16-FCCM2019-BWT.pdf).
 
-### AstroBWT CPU Hash Rates 
+### AstroBWT Hash Rates 
 [Submitted by public](https://github.com/deroproject/astrobwt/issues/2):  
 |SNo.| 	CPU  |Hash Rates |Threads |	OS |  
 |------|-------|--------|-------|---|  
