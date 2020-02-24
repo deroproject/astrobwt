@@ -1,11 +1,12 @@
 DERO AstroBWT CPU Mining Proof-of-Work
 ======================================  
 
-### [AstroBWT Testnet](https://github.com/deroproject/derosuite_AstroBWT_testnet)
+#### [AstroBWT Testnet](https://github.com/deroproject/derosuite_AstroBWT_testnet)
+### [AstroBWT Mainnet HardFork on block 4550555,  March 7,2020. ~0200-GMT.](DERO HardFork on block 4550555,  March 7,2020. ~0200-GMT.)  
 
-### Table of Contents
+#### Table of Contents
 1. [AstroBWT BUILDING](#astrobwt-building) 
-1. [SAMPLE OUTPUT](#sample-output) 
+1. [Sample Output](#sample-output) 
 1. [AstroBWT Pseudo CODE](#astrobwt-pseudo-code) 
 1. [Explaining AstroBWT](#explaining-astrobwt) 
 1. [AstroBWT Hash Rates](#astrobwt-hash-rates) 
