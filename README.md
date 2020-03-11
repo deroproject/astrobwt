@@ -56,6 +56,9 @@ Read more about research of BWT FPGA implementation [here](http://www.sfu.ca/~zh
 [Submitted by public](https://github.com/deroproject/astrobwt/issues/2):  
 |SNo.| 	CPU  |Miner| Hash Rates |Threads |	OS |  
 |----|-------|-----|------------|--------|-----|  
-|1| AMD Ryzen Threadripper 1950X | Official |560 H/s | -| Linux|
+|1| AMD Ryzen Threadripper 1950X | Official |560 H/s | -| Linux|  
+|2| Ryzen 7 2700x DDR4 2666 "Stock settings" | XMRig-5.9.0 |610 H/s | -| Windows 10|  
+|3| Qualcomm SDM845 Snapdragon 845 (10 nm) CPU Octa-core (4x2.8 GHz Kryo 385 Gold & 4x1.7 GHz Kryo 385 Silver) | XMRigCC |220 H/s | -| Ubuntu|  
+|4| AMD Ryzen Threadripper 1950X | Official |560 H/s | -| Linux|  
 
 
