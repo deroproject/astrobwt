@@ -54,32 +54,8 @@ Read more about research of BWT FPGA implementation [here](http://www.sfu.ca/~zh
 
 ### AstroBWT Hash Rates 
 [Submitted by public](https://github.com/deroproject/astrobwt/issues/2):  
-|SNo.| 	CPU  |Hash Rates |Threads |	OS |  
-|------|-------|--------|-------|---|  
-| 1| AMD Ryzen Threadripper 1950X |  ~240 H/s|15 Threads|Linux|  
-| 2| Intel Core i7-6700 |   ~108 H/s|-|-|  
-| 3| Intel® Xeon® E5-4657L v2 | ~127-160 H/s|-|-|  
-| 4| Intel(R) Core(TM) i7-87s50H @ 2.20GHz |     ~75 H/s | 6 cores/12 threads|-|  
-| 5| AMD RYZEN 7 3700 X | ~180 H/S|-|-|  
-| 6| AMD Ryzen 5 3600 (3.6GHz) | ~70-95 H/s|-|-|  
-| 7|  Intel Core i5-2500K (3.3GHz)   |    ~50 H/s|-|-|  
-| 8|  Intel Xeon E31240 (3.3GHz)  |    ~60 H/s|-|-|  
-| 9|   AMD A4-7300 (3.8GHz)  |    ~12 H/s |-|-|  
-| 10|   Ryzen 5 3600 @ stock 26 watt  |   ~180-200 H/s  |-|-|  
-| 11|    Ryzen @ 3950 34 watt  |    ~220-240 H/s |-|-|  
-| 12|    Ryzen @ 4150 48 watt  |    ~230-250 H/s |-|-|  
-| 13|   Ryzen 5 2600 @ 3900   |   ~140-160 H/s |-|-|  
-| 14|    Ryzen 3 1200 @ 2000  |   ~45-55 H/s  |-|-|  
-| 15|    Ryzen 3 120 @ 3900   |   ~80-90 H/s |-|-|  
-| 16|   I7-7700k   |    ~100-120 H/s |-|-|  
-| 17|   Intel Core i7-6700K 4.20GHz|     ~120-138 H/s   |-|-|  
-| 18|   Intel Atom x5-Z8330  1.44Ghz   |    ~2-6 H/s |-|-|  
-| 19|    Intel Core M 5Y10  0.80Ghz  |    ~12-33 H/s  |-|-|  
-| 20|   i7-7700HQ @ 2.80GHz  |    ~90 H/s |-|-|  
-| 21| i3 8100(4 core)  |    ~75 H/s |3 core|proxmox virtualization|  
-| 22|  Intel i5-4570 @ 3.2GhZ  |    ~56.5 H/s |-|iMac late 2013 8Gb|  
-| 23|   Intel i7-3770K @3.5GHz |    ~72-92 H/s |-|-|  
-| 24|   Ryzen 2700 3.9GHz |     ~172 H/s |-|-|  
-
+|SNo.| 	CPU  |Miner| Hash Rates |Threads |	OS |  
+|----|-------|-----|------------|--------|-----|  
+|1| AMD Ryzen Threadripper 1950X | Official |560 H/s | -| Linux|
 
 
