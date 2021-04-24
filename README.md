@@ -53,7 +53,9 @@ AstroBWT is not a product of the current cryptosphere approach. It has roots in 
 Read more about research of BWT FPGA implementation [here](http://www.sfu.ca/~zhenman/files/C16-FCCM2019-BWT.pdf).
 
 ### AstroBWT Hash Rates 
-[Submitted by public](https://github.com/deroproject/astrobwt/issues/2):  
+[ 1. Submit and compare hashes with other devices(On Github).](https://github.com/deroproject/astrobwt/issues/2):  
+[ 2. Submit and compare hashes with other devices((https://benchmark.dero.network/).](https://benchmark.dero.network/)
+
 |SNo.| 	CPU  |Miner| Hash Rates |Threads |	OS |  
 |----|-------|-----|------------|--------|-----|  
 |1| AMD Ryzen Threadripper 1950X | Official |560 H/s | -| Linux|  
