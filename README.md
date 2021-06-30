@@ -50,7 +50,7 @@ AstroBWT is not a product of the current cryptosphere approach. It has roots in 
 1. All major providers (such as INTEL, NVIDIA etc) have already provided optimized implementations of BWT. Since, BWT has been used quite often in the general information theory and compression domains, it has been a subject of intensive studies. https://software.intel.com/en-us/ipp-dev-reference-burrows-wheeler-transform  
 1. In the coming months or years that AstroBWT is optimized or shown to have a significant performance boost on FPGAs, ASICs, or GPUs there would be a benefit for everyone. Such an advancement could even trigger the next revolution in Bioinformatics, Signal Processing, DNA Sequencing or other numerous domains where BWT is used. So, AstroBWT will not only serve as an ASIC/FPGA and GPU resisitant algorithm but it will aslo succeed in helping scientific research if it is optimized for these things.  
 
-Read more about research of BWT FPGA implementation [here](https://www.sfu.ca/~zhenman/files/SC3-FCCM2019-BWT.pdf).
+Read more about research of BWT FPGA implementation [here](https://www.sfu.ca/~zhenman/files/SC3-FCCM2019-BWT.pdf) and [local copy of this research pdf](https://github.com/deroproject/astrobwt/blob/master/SC3-FCCM2019-BWT.pdf).
 
 ### AstroBWT Hash Rates 
 [ 1. Submit and compare hashes with other devices(On Github).](https://github.com/deroproject/astrobwt/issues/2):  
