@@ -54,13 +54,13 @@ Read more about research of BWT FPGA implementation [here](https://www.sfu.ca/~z
 
 ### AstroBWT Hash Rates 
 [ 1. Submit and compare hashes with other devices(On Github).](https://github.com/deroproject/astrobwt/issues/2):  
-[ 2. Submit and compare hashes with other devices((https://benchmark.dero.network/).](https://benchmark.dero.network/)
+[ 2. Submit and compare hashes with other devices(https://benchmark.dero.network/).](https://benchmark.dero.network/)
 
-|SNo.| 	CPU  |Miner| Hash Rates |Threads |	OS |  
-|----|-------|-----|------------|--------|-----|  
-|1| AMD Ryzen Threadripper 1950X | Official |560 H/s | -| Linux|  
-|2| Ryzen 7 2700x DDR4 2666 "Stock settings" | XMRig-5.9.0 |610 H/s | -| Windows 10|  
-|3| Qualcomm SDM845 Snapdragon 845 (10 nm) CPU Octa-core (4x2.8 GHz Kryo 385 Gold & 4x1.7 GHz Kryo 385 Silver) | XMRigCC |220 H/s | -| Ubuntu|  
-|4| Ryzen 7 3800X 4.4Ghz  | XMRig |970 H/s | -| Linux|  
+|SNo.| 	CPU  |Miner| Hash Rates |Threads |
+|----|-------|-----|------------|--------|  
+|1| AMD Ryzen 9 5950x | Official |9.10 KH/s | -|
+|2| AMD Ryzen 7 3700x | Official |4.30 KH/s | -| 
+|3| i5-4690 @ 3.50GH | Official |900 H/s | -| 
+|4| i9-9900KF @ 4.75GHz  | Official |3.75 KH/s | -| 
 
 
